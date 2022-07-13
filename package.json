@@ -36,8 +36,10 @@
         "url": "https://github.com/webdriverio/appium-boilerplate/issues"
     },
     "homepage": "https://github.com/webdriverio/appium-boilerplate#readme",
+    "devDependenciesComments": {
+        "appium": "1.22.3"
+    },
     "devDependencies": {
-        //"appium": "1.22.3"
         "@typescript-eslint/eslint-plugin": "^5.30.6",
         "@typescript-eslint/parser": "^5.30.6",
         "@wdio/appium-service": "^7.20.3",
