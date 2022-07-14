@@ -1,6 +1,6 @@
 import path from 'path';
 import { cucumberOpts } from "./cucumberOpts.conf.ts";
-import {config} from './wdio.android.app.conf';
+import {config} from './wdio.ios.app.conf';
 
 config.cucumberOpts = cucumberOpts;
 
