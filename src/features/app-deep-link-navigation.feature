@@ -1,5 +1,8 @@
 Feature: WebdriverIO and Appium, when navigating by deep link
 
+    Background:
+        Given The Tab bar is shown
+
     Scenario: should be able to open the webview
         Given
         When
