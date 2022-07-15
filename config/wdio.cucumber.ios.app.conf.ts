@@ -1,6 +1,7 @@
 import path from 'path';
 import { cucumberOpts } from "./cucumberOpts.conf.ts";
 import {config} from './wdio.ios.app.conf';
+const { generate } = require('multiple-cucumber-html-reporter');
 const { removeSync } = require('fs-extra');
 
 config.cucumberOpts = cucumberOpts;
