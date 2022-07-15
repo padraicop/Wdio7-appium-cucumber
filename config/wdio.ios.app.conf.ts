@@ -23,6 +23,7 @@ config.capabilities = [
         "appium:platformVersion": "15.5",
         "appium:orientation": "PORTRAIT",
         "appium:automationName": "XCUITest",
+        "appium:wdaLocalPort": "8100",
         // The path to the app
         "appium:app": join(
             process.cwd(),
